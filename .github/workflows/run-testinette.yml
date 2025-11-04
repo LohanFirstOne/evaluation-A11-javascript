@@ -1,5 +1,6 @@
 name: Running Testinette using Vitest
-on: push;
+on:
+push:
 permissions:
   contents: write
 
