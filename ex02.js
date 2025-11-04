@@ -1,5 +1,5 @@
 function greetings(firstname) {
-	return `bienvenu ${firstname} !`;
+	return `Bienvenue ${firstname} !`;
 }
 
 console.log(greetings("")); // Résultat attendu: "Bienvenue, !"
