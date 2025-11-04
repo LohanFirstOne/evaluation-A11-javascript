@@ -1,4 +1,3 @@
-let
 function encodePassword(password, encodeFunction) {
 	return encodeFunction(password);
 }
@@ -45,7 +44,7 @@ function encodeRot16(password) {
 	return result;
 }
 
-console.log(encodePassword(abc, encodeRot8));
-console.log(encodePassword(abc, encodeRot16));
-console.log(encodePassword(abc, encodeRot8));
-console.log(encodePassword(abc, encodeRot16));
+console.log(encodePassword("abc", encodeRot8));
+console.log(encodePassword("abc", encodeRot16));
+console.log(encodePassword("srg", encodeRot8));
+console.log(encodePassword("srg", encodeRot16));
